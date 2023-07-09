@@ -18,4 +18,14 @@ public class Movement : MonoBehaviour {
         rb.AddForce(moveDirection * speed);
 
     }
+    
+    private void OnCollisionEnter(Collision collision) {
+        GameObject otherObject = collision.gameObject;
+
+        Debug.Log(otherObject.name);
+        if(otherObject.tag == "ChangeColor") {
+            otherObject.GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+        
+    }
 }
