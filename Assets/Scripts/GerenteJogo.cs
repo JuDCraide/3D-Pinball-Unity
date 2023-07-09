@@ -16,6 +16,9 @@ public class GerenteJogo : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
+
+        TextBumpersHit.SetText("Bumpers hit: " + objectsCollided);
+        TextPoints.SetText("Points: " + this.points);
     }
 
     // Update is called once per frame

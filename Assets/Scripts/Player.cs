@@ -8,24 +8,22 @@ public class Player : MonoBehaviour {
     public float speed = 10.0f;
     Rigidbody rb;
 
-    public int objectsCollided = 0;
-    public int points = 0;
-
     public float yKillZone = -5;
 
-    public TMPro.TextMeshProUGUI TextPoints;
-    public TMPro.TextMeshProUGUI TextBumpersHit;
+    public GameObject go;
+    public GerenteJogo gj;
 
     void Start() {
-        DontDestroyOnLoad(this.gameObject);
+        
         rb = GetComponent<Rigidbody>();
-
-        TextBumpersHit.SetText("Bumpers hit: " + objectsCollided);
-        TextPoints.SetText("Points: " + points);
+        gj = go.GetComponent<GerenteJogo>();
     }
 
     void FixedUpdate() {
         if(this.gameObject.transform.position.y < yKillZone ){
+            SceneManager.LoadScene("Fim");
+        }
+        if(Input.GetKeyDown(KeyCode.Q)){
             SceneManager.LoadScene("Fim");
         }
 
@@ -37,14 +35,10 @@ public class Player : MonoBehaviour {
     }
 
     public void CollidedNewObject(){        
-        objectsCollided++;
-        //Debug.Log("Collided " + objectsCollided);
-        TextBumpersHit.SetText("Bumpers hit: " + objectsCollided);
+       gj.CollidedNewObject();
     }
 
-    public void AddPoints(int points ){        
-        this.points += points;
-        Debug.Log("Points " + this.points);
-        TextPoints.SetText("Points: " + this.points);
+    public void AddPoints(int points){        
+        gj.AddPoints(points);
     }
 }
