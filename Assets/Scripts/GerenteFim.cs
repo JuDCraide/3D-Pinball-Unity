@@ -15,7 +15,7 @@ public class GerenteFim : MonoBehaviour
     {
         gj = GameObject.Find("GerenteJogo").GetComponent<GerenteJogo>();
         
-        TextBumpersHit.SetText("Bumpers hit: " + gj.objectsCollided + " / 8");
+        TextBumpersHit.SetText("Bumpers hit: " + gj.objectsCollided + " / 12");
         TextPoints.SetText("Points from collectables: " + gj.points + " / 2222");
     }
 
@@ -25,8 +25,8 @@ public class GerenteFim : MonoBehaviour
         
     }
 
-     public void BackToMenu() {
-        Debug.Log("AAAAAAAA");
-        //SceneManager.LoadScene("Menu");
-    }
+    //  public void BackToMenu() {
+    //     Debug.Log("AAAAAAAA");
+    //     //SceneManager.LoadScene("Menu");
+    // }
 }

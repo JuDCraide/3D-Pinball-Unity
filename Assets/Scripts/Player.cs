@@ -32,6 +32,10 @@ public class Player : MonoBehaviour {
         Vector3 moveDirection = new Vector3(hMove, 0, vMove);
 
         rb.AddForce(moveDirection * speed);
+
+        if(gj.objectsCollided == 12 && gj.points == 2222){
+            SceneManager.LoadScene("Fim");
+        }
     }
 
     public void CollidedNewObject(){        

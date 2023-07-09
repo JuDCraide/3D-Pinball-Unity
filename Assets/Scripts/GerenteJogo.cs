@@ -24,7 +24,6 @@ public class GerenteJogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     public void CollidedNewObject(){        
