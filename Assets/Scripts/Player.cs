@@ -24,7 +24,7 @@ public class Player : MonoBehaviour {
     }
 
     public void CollidedNewObject(){        
-        objectsCollided += 1;
+        objectsCollided++;
         Debug.Log("Collided " + objectsCollided);
     }
 
