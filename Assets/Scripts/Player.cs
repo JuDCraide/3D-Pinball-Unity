@@ -39,7 +39,7 @@ public class Player : MonoBehaviour {
         gj.segundos += Time.deltaTime;
         if(gj.segundos >= 60){
             gj.minutos ++;
-            gj.segundo -=60;
+            gj.segundos -=60;
         }
 
     }
