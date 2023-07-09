@@ -26,6 +26,9 @@ public class Player : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Q)){
             SceneManager.LoadScene("Fim");
         }
+        if(gj.objectsCollided == 12 && gj.points == 2222){
+            SceneManager.LoadScene("Fim");
+        }
 
         float hMove = Input.GetAxis("Horizontal");
         float vMove = Input.GetAxis("Vertical");
@@ -33,9 +36,12 @@ public class Player : MonoBehaviour {
 
         rb.AddForce(moveDirection * speed);
 
-        if(gj.objectsCollided == 12 && gj.points == 2222){
-            SceneManager.LoadScene("Fim");
+        gj.segundos += Time.deltaTime;
+        if(gj.segundos >= 60){
+            gj.minutos ++;
+            gj.segundo -=60;
         }
+
     }
 
     public void CollidedNewObject(){        

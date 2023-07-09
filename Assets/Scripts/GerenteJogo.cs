@@ -11,6 +11,9 @@ public class GerenteJogo : MonoBehaviour
     public TMPro.TextMeshProUGUI TextPoints;
     public TMPro.TextMeshProUGUI TextBumpersHit;
 
+    public float segundos = 0;
+    public int minutos = 0;
+    public TMPro.TextMeshProUGUI TextTempo;
 
     // Start is called before the first frame update
     void Start()
@@ -19,11 +22,13 @@ public class GerenteJogo : MonoBehaviour
 
         TextBumpersHit.SetText("Bumpers hit: " + objectsCollided);
         TextPoints.SetText("Points: " + this.points);
+        TextBumpersHit.SetText("Tempo: " + minutos.ToString("00") + ":" + segundos.ToString("00"));
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        TextBumpersHit.SetText("Tempo: " + minutos.ToString("00") + ":" + segundos.ToString("00"));
     }
 
     public void CollidedNewObject(){        
