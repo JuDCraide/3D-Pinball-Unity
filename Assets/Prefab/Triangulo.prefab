@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287152233418020019}
+  - component: {fileID: 2751850261209219805}
   m_Layer: 0
   m_Name: Triangulo
   m_TagString: Untagged
@@ -34,6 +35,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2751850261209219805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4774362248657456131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e235dc1574d6c144b8b99b677d8e1fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6960779239957282556
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,6 +59,7 @@ GameObject:
   - component: {fileID: 3351614908297313229}
   - component: {fileID: 1689774207821114300}
   - component: {fileID: 4490780826686301913}
+  - component: {fileID: 3690499760405556155}
   m_Layer: 0
   m_Name: Parede (19)
   m_TagString: Untagged
@@ -139,6 +153,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3690499760405556155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6960779239957282556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755a45f7e270d1646a8fb838ec4e5e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackForce: 50
 --- !u!1 &8171164371263465876
 GameObject:
   m_ObjectHideFlags: 0
