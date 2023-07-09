@@ -18,6 +18,7 @@ public class GerenteFim : MonoBehaviour
         
         TextBumpersHit.SetText("Bumpers hit: " + gj.objectsCollided + " / 12");
         TextPoints.SetText("Points from collectables: " + gj.points + " / 2222");
+        Debug.Log("Timer: " + gj.minutos.ToString("00") + ":" + gj.segundos.ToString("00"));
         TextTempo.SetText("Timer: " + gj.minutos.ToString("00") + ":" + gj.segundos.ToString("00"));
     }
 
@@ -27,8 +28,4 @@ public class GerenteFim : MonoBehaviour
         
     }
 
-    //  public void BackToMenu() {
-    //     Debug.Log("AAAAAAAA");
-    //     //SceneManager.LoadScene("Menu");
-    // }
 }

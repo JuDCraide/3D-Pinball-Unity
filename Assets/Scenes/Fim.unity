@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextPoints: {fileID: 1593731123}
   TextBumpersHit: {fileID: 1209180411}
+  TextTempo: {fileID: 170957904}
 --- !u!4 &45636929
 Transform:
   m_ObjectHideFlags: 0
