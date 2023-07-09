@@ -7,7 +7,6 @@ public class Player : MonoBehaviour {
     Rigidbody rb;
 
     public int objectsCollided = 0;
-    public int collectables = 0;
 
     public int points = 0;
 
@@ -26,6 +25,12 @@ public class Player : MonoBehaviour {
 
     public void CollidedNewObject(){        
         objectsCollided += 1;
+        Debug.Log("Collided " + objectsCollided);
+    }
+
+    public void AddPoints(int points ){        
+        this.points += points;
+        Debug.Log("Points " + this.points);
     }
     
     // private void OnCollisionEnter(Collision collision) {
