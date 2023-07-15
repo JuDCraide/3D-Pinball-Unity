@@ -25,7 +25,10 @@ public class CollisionParent : MonoBehaviour
             collided = true;
         }
         
-        Color c = UnityEngine.Random.ColorHSV();
+        float h = Random.Range(0.0f, 1.0f);
+        float s = Random.Range(0.8f, 1.0f);
+        float v = Random.Range(0.8f, 1.0f);
+        Color c = Color.HSVToRGB(h, s, v);
          foreach (Transform  child in transform) {
             child.GetComponent<MeshRenderer>().material.color = c;
          }
