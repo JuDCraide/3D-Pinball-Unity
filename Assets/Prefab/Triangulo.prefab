@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 3690499760405556155}
   m_Layer: 0
   m_Name: Parede (19)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2feea3f082bb0f244b4eba233d050996, type: 2}
+  - {fileID: 2100000, guid: 862418ef7f3767045baf192ba2856be1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 5685144665608258164}
   m_Layer: 0
   m_Name: Parede (16)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,7 +228,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2feea3f082bb0f244b4eba233d050996, type: 2}
+  - {fileID: 2100000, guid: 862418ef7f3767045baf192ba2856be1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 4921456553693066476}
   m_Layer: 0
   m_Name: Parede (18)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -333,7 +333,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2feea3f082bb0f244b4eba233d050996, type: 2}
+  - {fileID: 2100000, guid: 862418ef7f3767045baf192ba2856be1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

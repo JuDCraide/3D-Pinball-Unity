@@ -3660,6 +3660,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: ChangeColor
       objectReference: {fileID: 0}
+    - target: {fileID: 4689686290020996261, guid: 1a7c5066e35d4bf4699b47d7b8e67cc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c9333fbbc729bc4099a879fbe8ac238, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6739,6 +6743,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: ChangeColor
       objectReference: {fileID: 0}
+    - target: {fileID: 4689686290020996261, guid: 1a7c5066e35d4bf4699b47d7b8e67cc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c9333fbbc729bc4099a879fbe8ac238, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7536,7 +7544,7 @@ GameObject:
   - component: {fileID: 549910930}
   m_Layer: 0
   m_Name: Parede (48)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7597,7 +7605,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2feea3f082bb0f244b4eba233d050996, type: 2}
+  - {fileID: 2100000, guid: 862418ef7f3767045baf192ba2856be1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11310,7 +11318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819142830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.31, y: 0.56, z: -25.44}
+  m_LocalPosition: {x: 18.57, y: 0.56, z: -25.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11329,7 +11337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84687491fd50303438da2d733821f4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   yKillZone: -3
   go: {fileID: 1030961888}
   gj: {fileID: 0}
@@ -11755,7 +11763,7 @@ GameObject:
   - component: {fileID: 889304565}
   m_Layer: 0
   m_Name: Parede (46)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11816,7 +11824,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2feea3f082bb0f244b4eba233d050996, type: 2}
+  - {fileID: 2100000, guid: 862418ef7f3767045baf192ba2856be1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12320,7 +12328,7 @@ GameObject:
   - component: {fileID: 911168004}
   m_Layer: 0
   m_Name: Capsule (1)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12368,7 +12376,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b3c4b261baf54a248abdca871a8857f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12702,14 +12710,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.53729963, y: 0, z: 0, w: 0.8433915}
-  m_LocalPosition: {x: 18.4, y: 3.5, z: -26}
+  m_LocalRotation: {x: 0.60876137, y: 0, z: 0, w: 0.7933534}
+  m_LocalPosition: {x: 18.4, y: 3.6, z: -26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 65, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13739,7 +13747,7 @@ GameObject:
   - component: {fileID: 1066448223}
   m_Layer: 0
   m_Name: Parede (47)
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13800,7 +13808,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2feea3f082bb0f244b4eba233d050996, type: 2}
+  - {fileID: 2100000, guid: 862418ef7f3767045baf192ba2856be1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13887,7 +13895,7 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.5
+    x: 0.54
     y: 0.4
     width: 1
     height: 1
@@ -16745,6 +16753,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: ChangeColor
       objectReference: {fileID: 0}
+    - target: {fileID: 4689686290020996261, guid: 1a7c5066e35d4bf4699b47d7b8e67cc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c9333fbbc729bc4099a879fbe8ac238, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21017,7 +21029,7 @@ GameObject:
   - component: {fileID: 1654530506}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: ChangeColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21065,7 +21077,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b3c4b261baf54a248abdca871a8857f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25699,6 +25711,9 @@ Transform:
   m_Children:
   - {fileID: 1269184094}
   - {fileID: 2015506356}
+  - {fileID: 610104611}
+  - {fileID: 1404751616}
+  - {fileID: 1109572503}
   - {fileID: 1819525292}
   - {fileID: 1969442405}
   - {fileID: 512929733}
@@ -25722,9 +25737,6 @@ Transform:
   - {fileID: 188722273}
   - {fileID: 1119469185}
   - {fileID: 674537121}
-  - {fileID: 610104611}
-  - {fileID: 1404751616}
-  - {fileID: 1109572503}
   - {fileID: 1451664952}
   - {fileID: 1836934636}
   m_Father: {fileID: 0}
