@@ -39,7 +39,7 @@ public class GerenteJogo : MonoBehaviour
 
     public void AddPoints(int points ){        
         this.points += points;
-        Debug.Log("Points " + this.points);
+        //Debug.Log("Points " + this.points);
         TextPoints.SetText("Points: " + this.points);
     }
 }

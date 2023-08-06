@@ -23,6 +23,6 @@ public class MudarDeCor : MonoBehaviour {
         colorB = Random.Range(0.0f, 1.0f);
 
         meshRenderer.material.color = new Color(colorR, colorG, colorB);
-        Debug.Log("Mudando a cor");
+        //Debug.Log("Mudando a cor");
     }
 }

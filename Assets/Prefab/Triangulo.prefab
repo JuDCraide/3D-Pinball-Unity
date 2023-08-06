@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushBackForce: 50
+  collisionSoundType: 1
 --- !u!1 &8171164371263465876
 GameObject:
   m_ObjectHideFlags: 0

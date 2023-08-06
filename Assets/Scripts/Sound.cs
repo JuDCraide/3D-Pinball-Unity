@@ -9,11 +9,11 @@ public class Sound {
     
     public string name;
     public AudioClip clip;
-    public boolean loop;
+    public bool loop;
 
-    [Rang(0f, 1f)]
+    [Range(0f, 1f)]
     public float volume;
-    [Rang(1f, 3f)]
+    [Range(1f, 3f)]
     public float pitch;
 
     [HideInInspector]
