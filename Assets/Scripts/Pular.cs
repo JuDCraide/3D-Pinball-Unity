@@ -17,7 +17,7 @@ public class Pular : MonoBehaviour {
             //Vextor3.up -> up global
             //transform.up -> up local
             rb.AddForce(Vector3.up * jumpStrenght, ForceMode.Impulse);
-            Debug.Log("Pulando");
+            //Debug.Log("Pulando");
         }
     }
 }
